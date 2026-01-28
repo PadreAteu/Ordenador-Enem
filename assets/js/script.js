@@ -83,10 +83,22 @@ let videosJson = [
                 subject: "Química",
                 desc: "Tudo sobre Estequiometria, o tema de química que MAIS CAI NO ENEM, com mais de 100 questões pra te blindar na prova."
             },
+            {   
+                iframe: `<iframe src="https://www.youtube.com/embed/8OKgg3CWmUM?si=EX-OcuaC4bGCACCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Tudo de Separação de Misturas para o ENEM",
+                subject: "Química",
+                desc: "Tudo sobre separação de misturas, tema que cai até mesmo fora da química, essencial para se destacar de verdade."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/eiNb-LfEDHI?si=sb18PkWA-zqq7fZT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "A melhor aula de NOX da sua vida para o ENEM",
+                subject: "Química",
+                desc: "Tema recorrente no ENEM, manipule NOX de uma forma descomplicada e, como sempre, com didática brutal."
+            },
             {
                 iframe: "<iframe src=\"https://www.youtube.com/embed/riQoW22yMO4?si=pmlcaCzfapt4l5Xa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-                name: "A melhor aula de QUÍMICA INORGÂNICA que você já viu",
-                subject: "Química (OPCIONAL)",
+                name: "A melhor aula de QUÍMICA INORGÂNICA para o ENEM",
+                subject: "Química",
                 desc: "Blindagem em química inorgânica, excelência em forma de aula, depois dessa, o ENEM é quem vai te achar difícil."
             },
             {
@@ -179,6 +191,54 @@ let videosJson = [
                 subject: "Português",
                 desc: "O nome engana, é um dos temas mais cobrados sobre português no ENEM, didática mágica, acertos garantidos."
             },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/JieTN96XwrU?si=40heNh0SSvjGrSo1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Nunca mais perca ponto na COMPETÊNCIA 1 da Redação ENEM",
+                subject: "Redação",
+                desc: "Aula gramática corringindo erros de redação que com certeza você já cometeu, resultados garantidos, você sabe disso."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/5yMOgW2Pfzo?si=XhwmCNQVhePVwoft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Como blindar competência 3 - Prof Milla Borges",
+                subject: "Redação",
+                desc: "Pode não ser o Pedro Assad, mas te garanto que a qualidade é a mesma, blinde sua redação, alavanque sua nota com a Milla Borges."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/SIOL2KWBkXs?si=g-s9MOGwxUZL6YQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Escreva comigo para REDAÇÃO ENEM | Aula 1",
+                subject: "Redação (OPCIONAL)",
+                desc: "Redação na pratica, entenda como o próprio Pedro escreve e conserte seus erros de redação, nota nunca é demais no ENEM"
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/1VxCWJyLbyk?si=pErXVb06uiu2husA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Escreva comigo para REDAÇÃO ENEM | Aula 2",
+                subject: "Redação (OPCIONAL)",
+                desc: "Aula 2 de redação prática, entenda ainda mais o que errou e desbloqueie sua inteligência."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/Fei09Xvy3yI?si=P5UF7PkBeopl33hN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Escreva comigo para REDAÇÃO ENEM | Aula 3",
+                subject: "Redação (OPCIONAL)",
+                desc: "Aula 3 de redação prática, você já sabe o que esperar, aperfeiçoe sua escrita com exemplos reais."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/1_gXyMjJoKU?si=HSifTLwmTm6Cwbuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Tentando tirar 1000 na Redação com a Milla Borges",
+                subject: "Redação (OPCIONAL)",
+                desc: "Aula para se desafiar, agora que você entende o básico da redação, escreva junto com os melhores."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/BqAl370-Ues?si=cVQGdrDBNatTbugU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Não vou desistir de tirar 1000 na Redação com a Milla Borges",
+                subject: "Redação (OPCIONAL)",
+                desc: "Mais uma vez, se desafie, escreva junto com as melhores pessoas e aperfeiçoe ainda mais suas habilidades."
+            },
+            {
+                iframe: `<iframe src="https://www.youtube.com/embed/zXGrzS1jK5o?si=T4mJKTzdjTtV5uH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+                name: "Tentando tirar 3000 na Redação com Milla Borges (três temas ao mesmo tempo)",
+                subject: "Redação (OPCIONAL)",
+                desc: "Será que você consegue fazer 3 redações tão boas e rápidas quanto a dele? Depois dessa aula, você com certeza conseguirá."
+            }
         ];
 
         let videoNum = 1;
